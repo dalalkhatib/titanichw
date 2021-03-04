@@ -6,7 +6,7 @@ import plotly.figure_factory as ff
 from PIL import Image
 
 st.title("New Homework with streamlit")
-st.header("Titanic Data")
+st.header(" Lets enjoy the Video before drowning into analysis :cry: ")
 video_file = open('titanicvid.mp4', 'rb')
 video_bytes = video_file.read()
 st.video(video_bytes)
