@@ -6,9 +6,10 @@ import plotly.figure_factory as ff
 from PIL import Image
 
 st.title("New Homework with streamlit")
-st.header("EXPLORING THE TITANIC DATASET")
+st.header("Titanic Data")
 image = Image.open('titanicpic.jpg')
 st.image(image, caption='Titanic ship')
+st.header("EXPLORING THE TITANIC DATASET")
 st.header("1.Inspecting the Data")
 df = pd.read_csv("titanic.csv")
 df.dropna(subset = ["Age"], inplace=True)
