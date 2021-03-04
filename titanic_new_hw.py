@@ -86,6 +86,7 @@ if st.checkbox('Show Class Distribution Function of Fare'):
     fig4 = ff.create_distplot(hist_data, group_labels, bin_size=[.1, .25, .5])
     st.plotly_chart(fig4, use_container_width=True)
 
+st.header("End of Homework")
 if st.checkbox('Done'):
     st.markdown('Streamlit is **_really_ cool** :sunglasses:')
     st.balloons()
