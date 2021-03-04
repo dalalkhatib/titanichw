@@ -45,7 +45,8 @@ if st.checkbox('Show Age Histogram'):
         ax=ax,
       )
     st.write(fig1)
-
+    st.write("The majority of titanic passengers are between 20 and 40 years old")
+   
 
 
 if st.checkbox('Show Fare Histogram'):
@@ -62,6 +63,7 @@ if st.checkbox('Show Fare Histogram'):
         ax=ax,
       )
     st.write(fig2)
+    st.write(" The majority of fares are less than 100")
 
 st.subheader("2.2 Class Distribution")
 
