@@ -6,7 +6,7 @@ import plotly.figure_factory as ff
 from PIL import Image
 
 st.markdown("<h1 style='text-align: center; color: red;'>New Homework with streamlit</h1>", unsafe_allow_html=True)
-st.markdown("color: blue ;'>Hey</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: left; color: blue ;'>Hey</h1>", unsafe_allow_html=True)
 
 st.header(" Lets enjoy the Video before drowning into analysis :cry: :ocean: ")
 video_file = open('titanicvid.mp4', 'rb')
