@@ -7,8 +7,6 @@ from PIL import Image
 
 st.title("New Homework with streamlit")
 st.header("Titanic Data")
-image = Image.open('titanicpic.jpg')
-st.image(image, caption='Titanic ship')
 video_file = open('titanicvid.mp4', 'rb')
 video_bytes = video_file.read()
 st.video(video_bytes)
