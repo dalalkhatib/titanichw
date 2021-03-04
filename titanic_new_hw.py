@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import plotly.figure_factory as ff
 from PIL import Image
 
-st.markdown("<h1 style='text-align: center; color: red;'>Hello</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: red;'>New Homework with streamlit</h1>", unsafe_allow_html=True)
 
 st.title("New Homework with streamlit")
 st.header(" Lets enjoy the Video before drowning into analysis :cry: :ocean: ")
