@@ -20,6 +20,11 @@ st.write(df)
 
 
 
+#Filter 
+add_selectbox = st.sidebar.selectbox(
+    "How would you like to be contacted?",
+    ("Email", "Home phone", "Mobile phone"))
+
 
 #AGE FILTER
 sidebar_option = st.sidebar.beta_expander('Age Range')
