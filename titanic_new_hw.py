@@ -20,13 +20,18 @@ st.write(df)
 
 
 
-#Filter 
-add_selectbox = st.sidebar.selectbox(
-    "How would you like to be contacted?",
-    ("Email", "Home phone", "Mobile phone"))
-
 
 #AGE FILTER
+
+
+sidebar_option = st.sidebar.beta_expander('Number of Passenger')
+min_num = 0
+max_num = 890
+number_passenger = sidebar_option.slider('Min Number of passenger', int(min(df['PassengerId'])), int(max(df['PassengerId'])) - 10, value=(min_num, max_num), step=10)
+cmin_num = df['PassengerId'] >= num[0]
+cmax_num = df.Age <= num[1]
+sidebar_option.markdown(" *** ")
+
 sidebar_option = st.sidebar.beta_expander('Age Range')
 min_age = 0
 max_age = 80
